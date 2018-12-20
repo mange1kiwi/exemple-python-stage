@@ -16,6 +16,8 @@ class Voiture(object):
         return "Voiture(numero={numero})".format(**self.__dict__)
 
 def main():
+    """ fonction du programme principal
+    """
     print(voiture)
     print("Voiture(numero={numero})".format(**voiture))
 
